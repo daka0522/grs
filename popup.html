@@ -39,6 +39,30 @@
       flex-wrap: wrap;
       align-items: center;
     }
+
+    #info address {
+      font-size: .9em;
+      display: grid;
+      color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0, .05);
+      border-radius: .5em;
+    }
+    h4 {
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 400;
+      margin: .4em 0 .4em 0;
+    }
+    *:link {
+      text-decoration: none;
+      color: inherit;
+    }
+    *:visited {
+      color: inherit;
+    }
+
+    #generatedList {
+      font-size: 1.2em;
+    }
   </style>
 </head>
 
@@ -74,7 +98,7 @@
       </section>
 
       <section id="list" class="board">
-        <p>List</p>
+        <h4>List</h4>
         <ol id="generatedList">
           <!-- Javascript will injected here to generate list -->
         </ol>
@@ -84,10 +108,10 @@
       <div id="info" class="board">
         <h4>Info</h4>
         <address>
-          <span>Howork, 2020</span>
+          <span>GRS, 2020</span>
           <span>Ryu Sung Chul</span>
           <a href="mailto:daka0522@gmail.com">daka0522@gmail.com</a>
-          <a href="https://github.com/daka0522/howork"
+          <a href="https://github.com/daka0522/grs"
           title="Open source of this project">github.com/daka0522/howork</a>
           <span>Seoul, South Korea</span>
         </address>
