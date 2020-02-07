@@ -3,68 +3,8 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/common.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
   <title>Golden ratio series - a small app to get list of golden ratio</title>
-  <style>
-    body {
-      font-family: 'Philosopher', sans-serif;
-    }
-
-    #app {
-      margin: 1.6em 0 1.6em;
-      width: 17.94em;
-      line-height: 1.6em;
-      font-size: 1.2em;
-      text-align: center;
-    }
-
-    input,
-    select {
-      background-color: inherit;
-      padding: .4em;
-      outline-style: none;
-      border-radius: .68em;
-      width: 4.24em;
-    }
-
-    #style-container {
-      display: grid;
-      grid-gap: .62em;
-      grid-template-columns: repeat(3, 1fr);
-      margin-bottom: .4em;
-    }
-
-    .board-item {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: flex-end;;
-    }
-
-    #info address {
-      font-size: .9em;
-      display: grid;
-      color: rgba(0, 0, 0, 0.8);
-      background-color: rgba(0, 0, 0, .05);
-      border-radius: .5em;
-    }
-    h4 {
-      color: rgba(0, 0, 0, 0.8);
-      font-weight: 400;
-      margin: .4em 0 .4em 0;
-    }
-    *:link {
-      text-decoration: none;
-      color: inherit;
-    }
-    *:visited {
-      color: inherit;
-    }
-
-    #generatedList {
-      font-size: 1.2em;
-    }
-  </style>
 </head>
 
 <body>
@@ -86,7 +26,7 @@
           </div>
           <div id="queantity" class="board-item">
             <label for="quant-value">List size</label>
-            <input type="number" id="quant-value" min="1" max="100" value="5">
+            <input type="number" id="list-value" min="1" max="100" value="5">
           </div>
           <div id="option" class="board-item">
             <label for="fixed-number">Fixed point</label>
@@ -119,7 +59,7 @@
       </div>
     </footer>
   </div>
-  <script src="popup.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

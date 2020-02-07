@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Golden ratio series", 
-  "version": "1.0",
-  "description": "Golden ratios seires generator",
+  "version": "1.1",
+  "description": "Get the golden ratios of a given value",
   "author": "Ryu Sung Chul",
 
   "icons": {
