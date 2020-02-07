@@ -24,7 +24,7 @@ getBtn.addEventListener('click', () => {
       itemArray = new goldenRatioSeries(quant).divine().map(x => x.toFixed(fixedNumber))
       save(itemArray)
       itemArray.forEach(e => addList(e))
-      // break;
+      break;
     case '+':
       // console.log(new goldenRatioSeries(quant).add().map(x => x.toFixed(fixedNumber)));
       itemArray = new goldenRatioSeries(quant).add().map(x => x.toFixed(fixedNumber))
@@ -76,7 +76,6 @@ function goldenRatioSeries(list = 1) {
 }
 
 function addList(item) {
-
   let li = document.createElement('li')
   li.textContent = item
   generatedListRef.appendChild(li)
