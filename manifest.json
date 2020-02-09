@@ -6,19 +6,19 @@
   "author": "Ryu Sung Chul",
 
   "icons": {
-    "16": "icons/grs-16.png",
-    "32": "icons/grs-32.png",
-    "48": "icons/grs-48.png",
-    "128": "icons/grs-128.png"
+    "16": "icons/grs-v2-16.png",
+    "32": "icons/grs-v2-32.png",
+    "48": "icons/grs-v2-48.png",
+    "128": "icons/grs-v2-128.png"
   },
   
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/grs-16.png",
-      "32": "icons/grs-32.png",
-      "48": "icons/grs-48.png",
-      "128": "icons/grs-128.png"
+      "16": "icons/grs-v2-16.png",
+      "32": "icons/grs-v2-32.png",
+      "48": "icons/grs-v2-48.png",
+      "128": "icons/grs-v2-128.png"
     }
   },
   
